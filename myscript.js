@@ -129,3 +129,20 @@
 // }else {
 //   console.log('4,600円');
 // }
+
+// オブジェクト
+
+// number
+// var n = 255;
+// console.log(n.toString(16));
+// console.log(n.toExponential());
+
+// string
+// var str = 'こんにちは';
+// console.log(str.length);
+
+// console.log(str.charAt(2));
+
+// 演習
+// var str = 'red,green,blue';
+// console.log(str.split(','));
