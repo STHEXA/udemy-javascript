@@ -102,19 +102,30 @@
 // }
 
 // switch
-var n = 4;
+// var n = 4;
 
-switch (n) {
-  case 1:
-    console.log('数値は1です。');
-    break;
-  case 2:
-    console.log('数値は2です。');
-    break;
-  case 3:
-    console.log('数値は3です。');
-    break;
-  default:
-    console.log('範囲外です。');
-    break;
-}
+// switch (n) {
+//   case 1:
+//     console.log('数値は1です。');
+//     break;
+//   case 2:
+//     console.log('数値は2です。');
+//     break;
+//   case 3:
+//     console.log('数値は3です。');
+//     break;
+//   default:
+//     console.log('範囲外です。');
+//     break;
+// }
+
+// 演習
+// var age = 12;
+
+// if(age < 6){
+//   console.log('800円');
+// }else if(6 <= age && age < 12){
+//   console.log('1,800円');
+// }else {
+//   console.log('4,600円');
+// }
