@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>javascriptの学習</title>
+</head>
+<body>
+  <ul id="List">
+    <li id="oldList">古い要素です</li>
+  </ul>
+
+  <!-- <ul id="list">
+    <li id="newlist">新しい要素です</li>
+  </ul> -->
+
+  <input type="button" value="置換" onclick="replace();">
+  <script>
+    function replace() {
+      var newList = document.createElement('li');
+
+      newList.setAttribute('id', 'newList');
+
+      var newText = document.createTextNode('新しい要素です');
+
+      newList.appendChild(newText);
+
+      var oldList = document.getElementById('oldList');
+
+      var parentNode = oldList.parentNode;
+
+      parentNode.replaceChild(newList, oldList);
+    }
+    
+  </script>
+</body>
+</html>

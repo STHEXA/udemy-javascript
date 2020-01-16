@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>javascriptの学習</title>
+</head>
+<body>
+  <ul id="list"></ul>
+  <input id="textId" type="text">
+  <input type="button" value="取得" onclick="appendElement();">
+
+  <script>
+    function appendElement() {
+      var li = document.createElement('li');
+      var text = document.getElementById('textId');
+      var enterText = text.value;
+      if (enterText != "") {
+        var textNode = document.createTextNode(enterText);
+        li.appendChild(textNode);
+        var list = document.getElementById('list');
+        list.appendChild(li);
+      }
+      
+    }
+    
+  </script>
+</body>
+</html>

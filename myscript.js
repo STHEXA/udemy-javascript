@@ -146,3 +146,55 @@
 // 演習
 // var str = 'red,green,blue';
 // console.log(str.split(','));
+
+// 繰り返し処理
+// for(var i = 1; i <= 3; i++){
+//   console.log(i);
+// }
+
+// var i = 1;
+// while(i <= 3){
+//   console.log(i);
+//   i++;
+// }
+
+// var i = 1;
+// do {
+//   console.log(i);
+//   i++;
+// } while(i <= 3);
+
+// 演習
+// var i = 0;
+// for(var num = 1; num <= 100; num++){
+//   if((num%2) == 0){
+//     i += num;
+//   }
+// };
+
+// console.log(i);
+
+// 配列
+// var color = ['Red','Green','Blue'];
+// console.log(color[0]);
+// console.log(color[1]);
+// console.log(color[2]);
+
+// 連想配列
+// var user = {name: '山田花子', gender: '女性', birth: '1990//01/01'};
+// console.log(user.name);
+// console.log(user.gender);
+// console.log(user.birth);
+
+// 演習
+// var total = 0;
+// var score = [100, 90, 80, 70, 60];
+
+// for(var i = 0; i < score.length; i++){
+//   total += score[i];
+//   console.log(total);
+// };
+
+// var ave = total/5;
+// console.log(total);
+// console.log(ave);
